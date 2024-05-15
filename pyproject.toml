@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "demo-genai-training"
+version = "0.1.0"
+description = ""
+authors = ["Sami Taaissat, Rida Kejji"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+openai = "^1.30.1"
+langchain = "^0.1.20"
+streamlit = "^1.34.0"
+gcloud = "^0.18.3"
+langchain-openai = "^0.1.6"
+langchain-chroma = "^0.1.0"
+python-dotenv = "^1.0.1"
+bs4 = "^0.0.2"
+lxml = "^5.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
